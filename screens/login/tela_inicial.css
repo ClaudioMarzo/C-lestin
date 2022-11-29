@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align:baseline;
+    list-style:none; 
+    border:0;
+    font-family:'Philosopher';
+}
+body{
+    background-color:#4AAFE8;
+}
+
+/*------------------------------Header------------------------------*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+}
+.logo_tipo{
+    margin: 10px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+}
+.logo_tipo img{
+    width: 150px;
+    height: 150px;
+}
+.logo_tipo p{
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    font-size: 40px;
+}
+.interacao{
+    justify-items: center;
+    margin: 10px 50px 0 0;
+    padding: 20px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.texto{
+    font-size: 28px;
+    margin-top: 20px;
+}
+.bt1{
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    color:#72EEFF ;
+    border-radius: 35px;
+    background-color: #3F3232;
+}
+.bt2{
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    color: black;
+    border-radius: 35px;
+    background-color: #72EEFF;
+}
+/*-------------------------------Main-------------------------------*/
+.onda{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.container{
+    display: inline-block;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+.pictures{
+    position: relative; 
+    width: 250px;
+    height: 250px;
+}

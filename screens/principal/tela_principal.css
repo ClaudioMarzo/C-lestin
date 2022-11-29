@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+    font-family:'Philosopher';
+}
+body{
+    width: 100%;
+    background: #1056DEEB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+/*---------------------------------Header-----------------------------------*/
+header{
+    display:grid;
+    background: #078BB5B5;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+h1{
+    margin-left: 20px;
+}
+.header-img{
+    height: 50px;
+}
+.header-perfil{
+    height: 50px;
+    position: absolute;
+    right: 10px;
+}
+.menu{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+/*---------------------------------Section 1 -----------------------------------*/
+.navigation{
+    background: #73C6EA;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 80px;
+    position:fixed;
+    top: 50px;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: .3s;
+}
+.hidden{
+    display: none;
+}
+.menu{
+    padding: 0 20px 0 20px;
+}
+.close{
+    background: #078BB5B5;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.close a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 40px;
+}
+.perfil-ul{
+    height: 100px;
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.list-perfi:first-child p{
+    padding: 0 0 5px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.perfil{
+    margin: 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.list-perfi{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-perfil{
+    width: 60px;
+}
+
+.list{
+    color: inherit;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.mesa-digi{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    transition: .3s;
+}
+.ico{
+    width: 30px;
+    padding-left: 11px;
+}
+.ico_config{
+    width: 50px;
+    padding-left: 11px;
+}
+.config-geral{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: #078BB5B5;
+    position:absolute;
+    left: 0;
+    bottom: 50px;
+}
+.config-ancaro{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+.abrir{
+    width: 200px;
+    transition: .3s;
+}
+/*---------------------------------Section 2 -----------------------------------*/
+.configuracoes{
+    background: #73C6EA;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 0px;
+    position:fixed;
+    top: 50px;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: .3s;
+}
+.itens-config2{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-size: 15px;
+}
+.list2{
+    margin-top: 10px;
+    color: inherit;
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+}
+.ico_back{
+    width: 40px;
+    padding: 20px 0 0 20px;
+}
+.ancaro_pag{
+    padding-left: 20px;
+    text-decoration: mintcream;
+    color: inherit;
+}
+.ancaro_pag:hover{
+    color: red;
+}
+.img-config{
+    width: 30px;
+}
+.abrir_config{
+    width: 300px;
+    transition: .3s;
+}

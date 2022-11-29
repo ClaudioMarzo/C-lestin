@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    vertical-align:baseline;
+    list-style:none; 
+    border:0;
+    font-family:'Philosopher';
+}
+
+
+
+/*------------------------------Main------------------------------*/
+
+body{
+    margin: 0;
+}
+.logo{
+    position: absolute;
+    top: 10px;
+    height: 100px;
+    width: 100px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #4AAFE8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center  
+}
+h1{
+    margin: 10px;
+}
+.box{
+    font-size: 20px;
+    background-color: #C0E8FF;
+    border-radius: 10px;
+    padding-top: 20px;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+div{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.input_style{
+    outline: 0;
+    background: #FFFFFF;
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.olho{
+    width: 30px;
+    height: 30px;
+}
+.row{
+    width: 300px;
+    display: flex;  
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin: 10px 0 0px 0px;
+}
+.btn1{
+    text-decoration: none;
+    background: #FFFFFF;
+    color: black;
+    width: 110px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn2{
+    text-decoration: none;
+    background: #003499;
+    color: #FFFFFF;
+    width: 110px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+.pictures0{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 350px;
+}
+.pictures1{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 350px;
+}

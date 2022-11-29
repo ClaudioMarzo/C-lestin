@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+    font-family:'Philosopher';
+}
+body{
+    width: 100%;
+    background: #10A0DE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+/*---------------------------------------------------------------------*/
