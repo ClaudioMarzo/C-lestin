@@ -13,3 +13,79 @@ body{
     align-items: center; 
 }
 /*---------------------------------------------------------------------*/
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.back{
+    margin-left: 20px;
+    width: 60px;
+}
+h1{
+    margin-left: 50px;
+}
+main{
+    width: 70%;
+    height: 300px;
+}
+p{
+    font-size: 20px;
+    font-weight: bold ;
+}
+.hora{
+    height: 150px;
+}
+.hora input{
+    margin-top: 30px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+}
+.opcao{
+    height: 150px;
+}
+.inputs{
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.inputs input{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+}
+.btn-sim{
+    background: black;
+    color: white;
+}
+.btn-nao{
+    background: red;
+    color: white;   
+}
+.btn-salver{
+    position: absolute;
+    left: 40%;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: green;
+    color: white;   
+}
+.btn-salver:hover{
+    background: orange;
+    color: black;
+    transition: 0.4s;
+}
